@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>Todo list</h3>
-    <p v-for="(toDo, n) in arrayOfTodo" :key="n">
+    <p v-for="(toDo, n) in arrayOfTodo" :key="n++">
       <TodoItem
           :toDo="toDo"
           :n="n"
